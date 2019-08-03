@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Idealiza Júnior</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#ffa500">
+        <meta name="theme-color" content="#ffa500">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+
+    <body>
+        <nav class="navbar fixed-top navbar-dark nav-desk">
+            <a class="navbar-brand" href="#secaoinicial">
+                <img src=".\imagens\logo_Idealiza.svg" id="logo" alt="">
+                <div class="yellow-border"></div>
+            </a>
+            <ul>
+                <li><a class="link-secaoinicial">Início</a></li>
+                <li><a class="link-quemsomos">Quem somos</a></li>
+                <li><a class="link-servicos">Serviços</a></li>
+                <li><a class="link-portfolio">Portfólio</a></li>
+                <li><a class="link-clientes">Clientes</a></li>
+                <li><a class="link-contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="pos-f-t">
+            <div class="collapse" id="menu-ops">
+                <div class="p-4">
+                    <ul>
+                        <li><a class="link-secaoinicial close-menu" data-toggle="collapse"
+                                data-target="#menu-ops">Início</a></li>
+                        <li><a class="link-quemsomos close-menu" data-toggle="collapse" data-target="#menu-ops">Quem
+                                somos</a></li>
+                        <li><a class="link-servicos close-menu" data-toggle="collapse" data-target="#menu-ops">Serviços</a>
+                        </li>
+                        <li><a class="link-portfolio close-menu" data-toggle="collapse"
+                                data-target="#menu-ops">Portfólio</a></li>
+                        <li><a class="link-clientes close-menu" data-toggle="collapse" data-target="#menu-ops">Clientes</a>
+                        </li>
+                        <li><a class="link-contato close-menu" data-toggle="collapse" data-target="#menu-ops">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark nav-mobile">
+                <div class="yellow-border">
+                    <button class="nav-button close-menu" data-toggle="collapse" data-target="#menu-ops">
+                        <i id="nav-menu-icon" class="material-icons">menu</i>
+                    </button>
+                </div>
+                <a class="navbar-brand" href="#secaoinicial">
+                    <span class="logo-bg"></span>
+                    <img src=".\imagens\logo_Idealiza.svg" id="logo" class="logo-mobile" alt="">
+                </a>
+
+            </nav>
+        </div>
+        <div id="secaoinicial">
+            <div class="yellow-border"></div>
+            <img src=".\imagens\inicial.jpeg" alt="" id="imageminicio">
+            <h1 id="textinicio">
+                A empresa que idealiza o melhor desempenho para o seu negócio.
+            </h1>
+            <button id="contatenos">CONHEÇA NOSSOS SERVIÇOS</button>
+        </div>
+        <div id="quemsomos">
+            <div class="container">
+                <h1>Quem Somos</h1>
+                <hr id="quem_subli">
+                <div class="row">
+                    <div class="col-sm">
+                            <p>Somos uma empresa júnior do curso de administação da UnP , formada exclusivamente por graduandos voluntários, que está iniciando no mercado de consultoria administrativa.
+                            <p>Além disso, somos focados na melhoria da gestão, produtividade e análise de mercado, nós idealizamos e agimos para que a empresa possa alcançar seu crescimento da maneira mais eficiente possível.</p>
+                            <p>Para isso, contamos com professores doutores na área administrativa que supervisionam e que nos auxiliam, para que possamos oferecer os melhores serviços possíveis aos nossos clientes e com custo baixo.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src=".\imagens\Quem_pic.jpeg">
+                        </div>    
+                </div>
+                <div class="row">
+                    <div class="col-sm text-center">
+                        <button id="See-more">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="container" id="texto">
+                      <div class="row">
+                        <div class="col-sm">
+                          <h2>Missão</h2>
+                          <p> Ser uma empresa <strong>comprometida</strong> com o crescimento e <strong>fortalecimento</strong> do empreendedorismo potiguar na realização de serviços.</p>
+                        </div>
+                        <div class="col-sm">
+                          <h2>Visão</h2>
+                          <p>Até o final de 2020 ser uma empresa reconhecida no estado com um portfolio de <strong>serviço de qualidade</strong>, gerando <strong>alto impacto</strong> e <strong>crescimento</strong> na rede.</p>
+                        </div>
+                        <div class="col-sm">
+                          <h2>Valores</h2>
+                            <ul>
+                                <li>Colaboratividade</li>
+                                <li>Comprometimento</li> 
+                                <li>Transparência</li> 
+                                <li>Protagonismo</li> 
+                                <li>Inspiração</li>
+                                <li>Evoluir sempre</li> 
+                                <li>Sangue nos olhos</li> 
+                                <li>É bom dimai ser Junior</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+        </div>
+
+        <div id="servicos">
+            <div class="container-fluid">
+                <h1>Serviços</h1>
+                <div class="row">
+                    <div class="col-sm single">
+                        <h2>Titulo do serviço aqui</h2>
+                        <img src="imagem do serviço"> 
+                        resumo do serviço aqui
+
+                        <button type="button" class="seemore" data-toggle="modal" data-target="#modal-sev">
+                            VEJA MAIS
+                        </button>
+
+                        <div class="modal fade" id="modal-sev">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">titulo do serviço</h4>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <img src="colocar o endereço da imagem aqui"> 
+                                        texto sobre o serviço
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="modal-grey" data-dismiss="modal">Fechar</button>
+                                        <button type="button" class="modal-yellow" id="chama">Contato</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                        Esse aqui é o JS do modal, Sivaldo preferiu deixar aqui no codigo html.
+                        Veja como você prefere e avise no grupo Matheus.
+                    -->
+                    <script>
+                        $(document).ready(function (){
+                            $("#chama").click(function (){
+                                $('#modal-sev').modal('hide')
+                                $('html, body').animate({
+                                    scrollTop: $("#contato").offset().top - 90
+                                }, 500);
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="portfolio">
+            <h1>Portfólio</h1>
+            <hr id="port_subli">
+            <div class="container">
+                <ul>
+                    <li class="prev" id="port-prev">
+                        <i class="material-icons">
+                            keyboard_arrow_left
+                        </i>
+                    </li>
+                    <li class="next" id="port-next">
+                        <i class="material-icons">
+                            keyboard_arrow_right
+                        </i>
+                    </li>
+                </ul>
+                <div class="trabalhos responsive">
+                    <div>
+                        <img src=".\imagens\400x300.png">
+                        <button data-toggle="modal" data-target="#Modal_trabalho">SAIBA MAIS</button>
+                    </div>
+                    <div>
+                        <img src=".\imagens\400x300.png">
+                        <button data-toggle="modal" data-target="#Modal_trabalho">SAIBA MAIS</button>
+                    </div>
+                    <div>
+                        <img src=".\imagens\400x300.png">
+                        <button data-toggle="modal" data-target="#Modal_trabalho">SAIBA MAIS</button>
+                    </div>
+                    <div>
+                        <img src=".\imagens\400x300.png">
+                        <button data-toggle="modal" data-target="#Modal_trabalho">SAIBA MAIS</button>
+                    </div>
+                </div>
+            </div>
+                <div>
+                    <!--Modal inicia aqui-->
+                    <div class="modal fade" id="Modal_trabalho">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="yellow-title"></div>
+                                <div class="close" class="modal-grey" data-dismiss="modal">&times;</div>
+                                <div class="modal-header">
+                                    <h4 class="modal-title">titulo do trabalho ja realizado</h4>
+                                </div>
+                                <div class="modal-body">
+                                    texto falando sobre o trabalho
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+        <hr>
+        <div id="clientes">
+            <h1>Clientes</h1>
+
+            <div class="container">
+                <ul>
+                    <li class="prev" id="cli-prev">
+                        <i class="material-icons">
+                            keyboard_arrow_left
+                        </i>
+                    </li>
+                    <li class="next" id="cli-next">
+                        <i class="material-icons">
+                            keyboard_arrow_right
+                        </i>
+                    </li>
+                </ul>
+                <div class="clientes">
+                    <div>
+                        <img src=".\imagens\2s.png">
+                    </div>
+                    <div>
+                        <img src=".\imagens\2s.png">
+                    </div>
+                    <div>
+                        <img src=".\imagens\2s.png">
+                    </div>
+                    <div>
+                        <img src=".\imagens\2s.png">
+                    </div>
+                    <div>
+                        <img src=".\imagens\2s.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contato">
+            <h1>Contato</h1>
+            <hr id="cont_subli">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm">
+                        <form method="POST">
+                            <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Nome completo:</label>
+                                                <input type="text" name="tNome" id="cNome" size="40" placeholder="Digite seu nome completo...">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="form-group">    
+                                            <label>Telefone:</label>
+                                                <input type="tel" name="tTel" id="cTel" size="40" placeholder="Digite seu telefone...">
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                                <div class="form-group">   
+                                    <label>Email:</label>
+                                         <input type="email" name="tMail" id="cMail" size="40" placeholder="Digite seu e-mail...">
+                                </div>
+                                <div class="form-group">    
+                                     <label>Mensagem:</label>
+                                        <textarea class="form-control" cols="40" id="message" maxlength="500" name="mensagem" placeholder="Mensagem" rows="6"></textarea>  
+                                </div> 
+                                <input class="form-control" type="submit" value="ENVIAR">
+                        </form>
+                    </div>
+                    <div class="col-sm">
+                        <div class="text-center maps">
+                            <span id="mapa" class="iframe-container">
+                               <!-- COLOCA O MAPA AQUI -->
+                             <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.0374904075975!2d-35.20953888598651!3d-5.850341195761123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2554f43f8cfed%3A0xab90f5806896a285!2sAv.+Engenheiro+Roberto+Freire%2C+2184+-+Capim+Macio%2C+Natal+-+RN%2C+59078-570!5e0!3m2!1spt-BR!2sbr!4v1564614254974!5m2!1spt-BR!2sbr" width="550" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+                            </span>
+                        </div>
+                        
+                        <div class="container redes-sociais" id="redes-sociais">
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <img src=".\imagens\localização_icon.png">
+                                </div>
+                                <div class="col-sm-11">
+                                    <p>Av. Engenheiro Roberto Freire, 2184 - Capim Macio, Natal - RN, 59082-902.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <img src=".\imagens\telefone_icon.png">
+                                </div>
+                                <div class="col-sm-11">
+                                    <p>(84) 9 9614-1177</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <img src=".\imagens\mail_icon.png">
+                                </div>
+                                <div class="col-sm-11">
+                                    <p>Idealiza.jr@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+            Esse modal é para o envio de formulários
+        -->
+        <div class="modal fade" id="msg-send">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="close" class="modal-grey" data-dismiss="modal">&times;</div>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Sucesso!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Sua mensagem foi enviada para a nossa equipe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="msg-invalid">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="close" class="modal-grey" data-dismiss="modal">&times;</div>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Mensagem ivalida!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Preencha todos os campos corretamente para que a mensagem seja enviada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h4> Copyright © 2019. Desenvolvido pela  <a href="http://www.ejectufrn.com.br/"> <img src=".\imagens\eject_mono.png"> EJECT</a>.</h4>
+        </footer>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="./functions.js"></script>
+    </body>
+</html>

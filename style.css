@@ -1,0 +1,1088 @@
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+   background-color: #212121;;
+}
+
+h1 {
+    font-family: Domine;
+    font-weight: regular;
+    font-size: 48px;
+    /*margin: 20px 0;*/
+    color: white;
+    text-align: center;
+    /*margin-bottom: 50px;*/
+}
+#quemsomos h1{
+    font-family: Domine;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #212121;
+}
+#quemsomos h2{
+    font-family: Domine;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: left;
+    margin: 50px 0;
+    color: #212121;
+}
+/*forma~ção dos hr*/
+#quem_subli{
+    width: 10%;  
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #212121;
+    border-width: 1px;
+}
+#port_subli{
+    width: 7%;  
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #212121;
+    border-width: 1px;
+}
+#cont_subli{
+    width: 7%;  
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #E5E5E5;
+    border-width: 1px;
+}
+/*termina aqui*/
+h2 {
+    font-family: Domine;
+    font-weight: regular;
+    font-size: 32px;
+    color: white;
+}
+strong{
+    font-weight: bold;
+}
+
+.navbar, .navbar ul, .navbar li, .navbar a, #menu-ops ul, #menu-ops li, #menu-ops a{
+    padding: .5rem 1rem;
+    display: flex;
+    color: white !important;
+    text-decoration: none !important;
+    height: 90px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #212121;
+    margin: 100px 0;
+}
+
+.navbar {
+    background-color: #010210; 
+}
+
+.navbar img {
+    z-index: 1060;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+#logo {
+    width: 180px;
+    height: 180px;
+    margin-top: -70px;
+    right: 150px;
+    position: absolute;
+    left: 250px;
+}
+
+.col-md-1 {
+    background-color: yellow !important;
+}
+
+#imageminicio {
+    position: absolute;
+    width: 350px;
+    left: 300px;
+    top: 200px;
+    background: url(img1.jpg);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+}
+
+#textinicio {
+    position: absolute;
+    width: 350px;
+    height: 391px;
+    left: 750px;
+    top: 250px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    color: #E5E5E5;
+}
+
+#secaoinicial {
+    background-color: #010210;
+    height: 100vh;
+    width: 100%;
+}
+
+#secaoinicial .yellow-border {
+    position: relative;
+    float: left;
+    height: 100vh;
+    width: 400px;
+    background-color: orange;
+}
+
+#secaoinicial button {
+    position: absolute;
+    left: 750px;
+    top: 450px;
+    background: none;
+    color: white;
+    border: 2px solid #EDD237;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.navbar .yellow-border {
+    position: fixed;
+    float: left;
+    height: 90px;
+    width: 400px;
+    left: 0;
+    top: 0;
+    background-color: orange;
+}
+
+#quemsomos {
+    padding-top: 50px;
+    background-color: #E5E5E5;
+}
+
+
+#quemsomos p{
+    font-family: Montserrat;
+    line-height: 2.3;
+    /*max-width: 420px;*/
+    display: inline-block;
+    /*margin: 10px 50px;*/
+    
+    color: #212121;
+    
+}
+#quemsomos ul{
+    list-style: none;
+    padding-left: 10px;
+}
+#quemsomos li{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 2.3;
+    /* or 208% */
+
+
+    color: #212121;
+}
+#quemsomos .col-sm-4{
+    text-align: center;
+    margin-right: 60px;
+}
+
+#quemsomos img {
+    border-radius: 20px;
+   
+}
+#See-more{
+    text-align: center;
+    margin: 50px 0 50px 0;
+
+    background: none;
+    color: #212121;
+    border: 2px solid #212121;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    
+}
+
+#servicos p {
+    font-family: Montserrat;
+    line-height: 2.3;
+    color: #E5E5E5;
+    text-align: left;
+}
+
+#servicos .container-fluid {
+    width: 90%;
+}
+
+#servicos h2 {
+    font-size: 1.5rem;
+}
+
+#servicos img {
+    margin: 50px 0;
+    height: 80px;
+}
+
+#servicos .col-sm {
+    text-align: center;
+}
+
+#servicos .seemore {
+    background: none;
+    color: #EDD237;
+    border: 2px solid #EDD237;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#servicos .single {
+    margin: 0 25px;
+}
+
+.slick-slide img {
+    display: block;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.slick-slide {
+    text-align: center;
+    outline: 0;
+}
+
+ .slick-slide button {
+    background: none;
+    color: #212121;
+    border: 2px solid #212121;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#contato {
+    background-color: #010210;
+    padding: 50px;
+}
+
+
+#contato input, #contato textarea {
+    background: none;
+    background-color: #e5e5e51a;
+    color: #E5E5E55a;
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    width: 100%;
+    transition: color 0.3s ease-in-out;
+
+    display: block;
+}
+#cNome, #cTel{
+    width: 100%;
+    display: inline;
+}
+
+#contato input:focus, #contato textarea:focus {
+    box-shadow: none;
+    color: #E5E5E5;
+}
+
+#contato label {
+    color: #E5E5E5;
+    margin-top: 20px;
+}
+
+#contato input[type="submit"] {
+    background: none;
+    color: #EDD237;
+    border: 2px solid #EDD237;
+    outline: 0 !important;
+    height: auto !important;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+#contato input[type="submit"]:focus {
+    box-shadow: none !important;
+}
+#contato p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: ;
+/* or 208% */
+
+
+color: #E5E5E5;
+}
+
+#contato h5 {
+    font-family: Montserrat;
+    color: #E5E5E5;
+    margin-bottom: 25px;
+}
+
+#mapa {
+    position: absolute;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    overflow: hidden;
+    left: 40px;
+    background-color: white;
+}
+.maps{
+    padding-top: 70px;
+}
+
+
+.redes-sociais  {
+    margin-top: 325px;
+    float: right;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+
+footer {
+    background-color: #010210;
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #E5E5E5;
+    border-top: 2px solid #EDD237;
+}
+
+footer h4 {
+    padding: 30px 0;
+    margin: 0;
+    font-size: 1rem !important;
+}
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:link{
+    color:#ffffff;
+    text-decoration: none;
+}
+footer img{
+    margin-bottom: 5px;
+}
+
+.modal-content {
+    background-color: #030421;
+    padding: 20px 70px;
+    color: #E5E5E5;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-footer {
+    justify-content: end;
+}
+
+.modal-title {
+    font-family: Domine;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+.modal-yellow, .modal-grey {
+    font-family: Montserrat;
+    outline: 0 !important;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none !important;
+    box-shadow: 0 4px 10px #000000;
+}
+
+.modal-yellow {
+    background: #EDD237;
+    color: #030421;
+}
+
+.modal-grey {
+    background: #E5E5E51A;
+    color: #EDD237;
+}
+
+.yellow-title {
+    position: absolute;
+    width: 350px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    background: #EDD237;
+    border-bottom-right-radius: 10px;
+}
+
+#portfolio .modal-title {
+    font-family: Domine;
+    color: black;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+}
+#portfolio{
+    background-color: #E5E5E5;
+}
+#portfolio h1 {
+    font-family: Domine;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 50px;
+/* or 104% */
+
+/* Ajeita a fonte*/
+    align-items: center;
+    text-align: center;
+
+    color: #212121;
+    padding-top: 50px;
+}
+
+#portfolio .close, .close {
+    position: absolute;
+    top: 0;
+    color: white;
+    right: 0;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#portfolio .modal-body {
+    padding: 70px 0;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.redes-sociais a {
+    display: flex;
+}
+
+.prev, .next {
+    color: #000000;
+    list-style: none;
+    width: 50%;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.prev:hover, .next:hover {
+    color: #979797;
+}
+
+.prev i, .next i {
+    font-size: 36pt;
+    user-select: none;
+}
+
+.next {
+    text-align: right;
+}
+
+#portfolio ul, #clientes ul {
+    display: flex;
+    position: relative;
+    top: 160px;
+    left: -100px;
+    width: calc(100% + 150px);
+}
+
+#portfolio .container, #clientes .container {
+    margin-top: -54px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1280px){
+    #logo {
+        width: 153px;
+        height: unset !important; 
+        margin-top: unset !important; 
+        right: unset !important; 
+        position: absolute;
+        left: unset !important; 
+    }
+
+    .yellow-border {
+        width: 159px !important;
+    }
+
+    #quemsomos p {
+        max-width: unset !important;
+    }
+
+    #quemsomos .col-sm {
+        -ms-flex-preferred-size: unset !important;
+        flex-basis: unset !important;
+    }
+
+    #mapa {
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 1049px){
+    #quemsomos p {
+        max-width: unset !important;
+    }
+
+    .col-sm {
+        -ms-flex-preferred-size: unset !important;
+        flex-basis: unset !important;
+    }
+
+    .single h2 {
+        margin-top: 50px;
+    }
+
+    #portfolio ul, #clientes ul {
+        left: -60px !important;
+        width: calc(100% + 90px) !important;
+    } 
+}
+
+@media screen and (min-width: 571px) and (max-width: 1035px){
+    .nav-desk {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+        position: fixed;
+        height: 50px;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    #menu-ops{
+        z-index: 1000;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        padding-top: 30px;
+    }
+
+    .p-4{
+        background-color: #424242;
+    }
+
+    #menu-ops ul {
+        display: block;
+        height: unset !important;
+    }
+
+    .nav-button {
+        background: none;
+        color: orange;
+        border: none;
+        outline: none;
+        font-family: Montserrat;
+        font-weight: bold;
+        /* margin-left: 10px; */
+    }
+
+    .nav-button .material-icons {
+        font-size: 45px !important;
+    }
+
+    #logo {
+        width: 90px;
+        /* right: 150px; */
+        height: unset !important;
+        margin-top: unset !important;
+        position: absolute;
+        left: 20px;
+    }
+
+    .nav-mobile .yellow-border {
+        position: absolute;
+        height: 50px;
+        background-color: transparent !important;
+        text-align: left;
+        right: 0;
+        left: unset !important;
+        width: unset !important;
+        background-color: transparent !important;
+    }
+
+    .logo-bg {
+        position: absolute;
+        width: 95px;
+        height: 100%;
+        background-color: orange;
+        top: 0;
+        left: 0;
+    }
+
+    #secaoinicial .yellow-border {
+        width: 95px;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 1126px){
+    #textinicio {
+        left: 485px;
+    }
+
+    #imageminicio {
+        left: 100px;
+
+    }
+
+    #contatenos {
+        left: 550px !important;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 837px){
+    #textinicio {
+        left: 197px;
+        top: 495px;
+    }
+
+    #imageminicio {
+        left: 60px;
+        top: 120px;
+    }
+
+    #contatenos {
+        left: 300px !important;
+        top: 700px !important;
+    }
+}
+
+@media screen and (min-width: 837px) and (max-width: 1126px){
+    #textinicio {
+        left: 485px;
+    }
+
+    #imageminicio {
+        left: 100px;
+
+    }
+
+    #contatenos {
+        left: 550px !important;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    #imageminicio {
+        width: 600px;
+        height: 600px;
+    }
+
+    #textinicio {
+        left: 1000px;
+    }
+
+    #secaoinicial button {
+        left: 1000px;
+    }
+
+    .container-fluid {
+        width: 80%;
+    }
+
+    footer h4{
+        font-size: 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #secaoinicial .yellow-border {
+        width: 95px;
+    }
+
+    #textinicio {
+        width: 65vw;
+        height: 391px;
+        left: 110px;
+        top: 350px;
+        font-size: 16pt;
+    }
+
+    #imageminicio {
+        width: 290px;
+        left: 44px;
+        top: 65px;
+    }
+    
+    #secaoinicial button {
+        left: 135px;
+        top: 520px;
+    }
+
+    .nav-desk {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+        position: fixed;
+        height: 50px;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    #menu-ops{
+        z-index: 1000;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        padding-top: 30px;
+    }
+
+    .p-4{
+        background-color: #424242;
+    }
+
+    #menu-ops ul {
+        display: block;
+        height: unset !important;
+    }
+
+    .nav-button {
+        background: none;
+        color: orange;
+        border: none;
+        outline: none;
+        font-family: Montserrat;
+        font-weight: bold;
+        /* margin-left: 10px; */
+    }
+
+    .nav-button .material-icons {
+        font-size: 45px !important;
+    }
+
+    #logo {
+        width: 90px;
+        /* right: 150px; */
+        height: unset !important;
+        margin-top: unset !important;
+        position: absolute;
+        left: 20px;
+    }
+
+    .nav-mobile .yellow-border {
+        position: absolute;
+        height: 50px;
+        background-color: transparent !important;
+        text-align: left;
+        right: 0;
+        left: unset !important;
+        width: unset !important;
+        background-color: transparent !important;
+    }
+
+    #quemsomos img {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    #servicos .single {
+        margin-top: 40px;
+    }
+
+    #contato {
+        padding: 25px;
+    }
+
+    .redes-sociais {
+        margin-top: 25px;
+    }
+
+    .slick-next {
+        right: -5px;
+    }
+
+    .slick-prev {
+        left: -5px;
+    }
+
+    .modal-content {
+        padding: 20px;
+    }
+
+    #portfolio .close {
+        color: #010210;
+        padding: 20px;
+        font-size: 30pt;
+    }
+
+    #portfolio .modal-body {
+        padding: 10px 0;
+    }
+
+    .yellow-title {
+        width: 100%;
+    }
+
+    #quemsomos p{
+        margin: 10px 15px;
+    }
+
+    #servicos .single {
+        margin: 40px 0 0 0;
+    }
+
+    .logo-bg {
+        position: absolute;
+        width: 95px;
+        height: 100%;
+        background-color: orange;
+        top: 0;
+        left: 0;
+    }
+
+    #mapa {
+        position: unset !important;
+        max-width: 50%;
+    }
+
+    #portfolio ul, #clientes ul {
+        left: -50px;
+        width: calc(100% + 60px);
+    }
+
+    .slick-slide img {
+        height: 195px;
+    }
+}
+
+@media screen and (min-width: 400px){
+    #portfolio .close {
+        color: white;
+        padding: 20px;
+        font-size: 30pt;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #secaoinicial, #secaoinicial .yellow-border {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #secaoinicial .yellow-border {
+        width: 95px;
+    }
+
+    #textinicio {
+        width: 65vw;
+        height: 391px;
+        left: 105px;
+        top: 320px;
+        font-size: 12pt;
+    }
+
+    #imageminicio {
+        width: 260px;
+        left: 44px;
+        top: 65px;
+    }
+    
+    #secaoinicial button {
+        left: 125px;
+        top: 495px;
+    }
+
+    .nav-desk {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+        position: fixed;
+        height: 50px;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    #menu-ops{
+        z-index: 1000;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        padding-top: 30px;
+    }
+
+    .p-4{
+        background-color: #424242;
+    }
+
+    #menu-ops ul {
+        display: block;
+        height: unset !important;
+    }
+
+    .nav-button {
+        background: none;
+        color: orange;
+        border: none;
+        outline: none;
+        font-family: Montserrat;
+        font-weight: bold;
+        /* margin-left: 10px; */
+    }
+
+    .nav-button .material-icons {
+        font-size: 45px !important;
+    }
+
+    #logo {
+        width: 90px;
+        /* right: 150px; */
+        height: unset !important;
+        margin-top: unset !important;
+        position: absolute;
+        left: 20px;
+    }
+
+    .nav-mobile .yellow-border {
+        position: absolute;
+        height: 50px;
+        background-color: transparent !important;
+        text-align: left;
+        right: 0;
+        left: unset !important;
+        width: unset !important;
+        background-color: transparent !important;
+    }
+
+    #quemsomos img {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    #servicos .single {
+        margin-top: 40px;
+    }
+
+    #contato {
+        padding: 25px;
+    }
+
+    .redes-sociais {
+        margin-top: 25px;
+    }
+
+    .slick-next {
+        right: -5px;
+    }
+
+    .slick-prev {
+        left: -5px;
+    }
+
+    .slick-slide img {
+        height: 160px;
+    }
+
+    .modal-content {
+        padding: 20px;
+    }
+
+    #portfolio .close {
+        color: #010210;
+        padding: 20px;
+        font-size: 30pt;
+    }
+
+    #portfolio .modal-body {
+        padding: 10px 0;
+    }
+
+    .yellow-title {
+        width: 100%;
+    }
+
+    #quemsomos p{
+        margin: 10px 15px;
+    }
+
+    #servicos .single {
+        margin: 40px 0 0 0;
+    }
+
+    .logo-bg {
+        position: absolute;
+        width: 95px;
+        height: 100%;
+        background-color: orange;
+        top: 0;
+        left: 0;
+    }
+
+    #mapa {
+        position: unset !important;
+        max-width: 50%;
+    }
+}
