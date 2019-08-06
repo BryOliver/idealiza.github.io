@@ -104,12 +104,13 @@ $(document).ready(function () {
 
     $('.clientes').slick({
         slidesToShow: slides_to_show,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1800,
         prevArrow: $('#cli-prev'),
         nextArrow: $('#cli-next'),
     });
+
     aparecer();
        function aparecer(){
          $('#texto').hide();
@@ -117,6 +118,7 @@ $(document).ready(function () {
             $('#texto').slideToggle();
           });
        }
+
        $('.responsive').slick({
           dots: true,
           infinite: false,
