@@ -101,6 +101,16 @@ $(document).ready(function () {
         prevArrow: $('#port-prev'),
         nextArrow: $('#port-next'),
     });
+    $('.servicos').slick({
+        slidesToShow: slides_to_show,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        prevArrow: $('#serv-prev'),
+        nextArrow: $('#serv-next'),
+    });
+
 
     $('.clientes').slick({
         slidesToShow: slides_to_show,
