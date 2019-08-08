@@ -15,6 +15,7 @@ h1 {
     text-align: center;
     /*margin-bottom: 50px;*/
 }
+
 #quemsomos h1{
     font-family: Domine;
     font-style: normal;
@@ -187,6 +188,11 @@ hr {
     padding: 10px 20px;
     font-family: Montserrat;
     font-weight: bold;
+    transition: 0.5s;
+}
+#secaoinicial button:hover{
+    background:#e5e5e5; 
+    color:#030421;
 }
 
 .navbar .yellow-border {
@@ -299,6 +305,12 @@ hr {
     font-family: Montserrat;
     font-weight: bold;
     margin: 15px;
+    transition: 0.5s;
+}
+#servicos .seemore:hover{
+    background: #E5E5E5;
+    color: #212121;
+    font-weight: bold;
 }
 
 #servicos .single {
@@ -326,7 +338,13 @@ hr {
     font-family: Montserrat;
     font-weight: bold;
     margin: 15px;
+    transition: 0.5s;
 }
+.slick-slide button:hover{
+    background: #293D50;
+    color: #E5E5E5;
+}
+
 #clientes{
     padding: 100px;
 }
@@ -382,18 +400,25 @@ hr {
     height: auto !important;
     margin-top: 25px;
     padding: 20px;
+    transition: 0.5s;
 }
 
 #contato input[type="submit"]:focus {
     box-shadow: none !important;
 }
+
+#contato input[type="submit"]:hover{
+    background: #E5E5E5;
+    color: #030421;
+}
+
 #contato p{
     font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: ;
-/* or 208% */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: ;
+    /* or 208% */
 
 
 color: #E5E5E5;
@@ -531,9 +556,6 @@ footer img{
     font-weight: normal;
     font-size: 48px;
     line-height: 50px;
-/* or 104% */
-
-/* Ajeita a fonte*/
     align-items: center;
     text-align: center;
 
