@@ -346,7 +346,7 @@ hr {
 }
 
 #clientes{
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .clientes img{
@@ -989,12 +989,44 @@ button:focus {
 }
 
 @media screen and (max-height: 600px) {
+    #quemsomos .col-sm-4{
+        margin-right: 0px !important;
+    }
     #secaoinicial, #secaoinicial .yellow-border {
         height: 600px;
     }
 }
 
 @media screen and (max-width: 370px) {
+
+    #plus_icon{
+        width: 30px !important;
+        height: 30px;
+        margin-right: 10px !important;
+    }
+    #contatenos{
+        margin-right: 20px;
+    }
+    #quem_subli{
+    width: 40%;  
+
+    }
+    #port_subli{
+        width: 35%;  
+
+    }
+    #cont_subli{
+        width: 35%;  
+
+    }
+    #cliente_subli{
+        width: 35%;  
+
+    }
+    #serv_subli{
+        width: 35%;  
+
+    }
     #secaoinicial .yellow-border {
         width: 95px;
     }
@@ -1081,9 +1113,13 @@ button:focus {
         background-color: transparent !important;
     }
 
+    #quemsomos .col-sm-4{
+        margin-right: 0px !important;
+    }
+
     #quemsomos img {
         width: 80%;
-        margin: 20px auto;
+       /* margin: 20px auto;*/
     }
 
     #servicos .single {
@@ -1097,7 +1133,7 @@ button:focus {
     .redes-sociais {
         margin-top: 25px;
     }
-
+    
     .slick-next {
         right: -5px;
     }
@@ -1113,6 +1149,7 @@ button:focus {
     .modal-content {
         padding: 20px;
     }
+
 
     #portfolio .close {
         color: #010210;
