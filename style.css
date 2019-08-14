@@ -9,7 +9,7 @@ body {
 h1 {
     font-family: Domine;
     font-weight: regular;
-    font-size: 48px;
+    font-size: 42px;
     /*margin: 20px 0;*/
     color: white;
     text-align: center;
@@ -20,7 +20,7 @@ h1 {
     font-family: Domine;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 42px;
     line-height: 55px;
     text-align: center;
 
@@ -206,7 +206,8 @@ hr {
 }
 
 #quemsomos {
-    padding-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 104px;
     background-color: #E5E5E5;
 }
 
@@ -249,12 +250,14 @@ hr {
     height:30px; 
     width:30px;
     margin-right: 5px;
-}
 
+}
+#row_ver_mais{
+    margin: 20px 0 0 0;
+}
 #See-more{
     text-align: left;
     /*margin: 50px 0 50px 0;*/
-
     background: none;
     color: #030421;
     outline: none;
@@ -281,8 +284,8 @@ hr {
 #servicos h2 {
     font-size: 1.5rem;
 }
-#servicos h1{
-    margin-top: 50px;
+#servicos{
+    padding:70px 0 104px 0;
 }
 #servicos img {
     margin-top: 50px;
@@ -306,6 +309,7 @@ hr {
     font-weight: bold;
     margin: 15px;
     transition: 0.5s;
+    
 }
 #servicos .seemore:hover{
     background: #E5E5E5;
@@ -358,7 +362,7 @@ hr {
 }
 #contato {
     background-color: #010210;
-    padding: 50px;
+    padding:70px 0 104px 0;
 }
 
 
@@ -491,7 +495,10 @@ footer img{
     padding: 20px 70px;
     color: #E5E5E5;
 }
-
+.modal-body img{
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+}
 .modal-header, .modal-footer {
     border: none;
 }
@@ -549,18 +556,18 @@ footer img{
 }
 #portfolio{
     background-color: #E5E5E5;
+    padding: 70px 0 104px 0; 
 }
 #portfolio h1 {
     font-family: Domine;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 42px;
     line-height: 50px;
     align-items: center;
     text-align: center;
 
     color: #212121;
-    padding-top: 50px;
 }
 
 #portfolio .close, .close {

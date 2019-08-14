@@ -102,7 +102,7 @@ $(document).ready(function () {
         nextArrow: $('#port-next'),
     });
     $('.servicos').slick({
-        slidesToShow: slides_to_show,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
