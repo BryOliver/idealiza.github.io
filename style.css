@@ -108,6 +108,34 @@ strong{
     text-align: center;
     cursor: pointer;
 }
+/*hover do navbar*/
+nav a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;  
+  }
+  
+nav a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+nav a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+/*fim do hover do navbar*/
 
 hr {
     border: 1px solid #212121;
@@ -356,12 +384,15 @@ hr {
 .clientes img{
     filter: contrast(30%);
     transition: 0.6s;
+    width: 100px;
+    height: 100px;
+
 }
 .clientes img:hover{
     filter: contrast(100%);
 }
 #contato {
-    background-color: #010210;
+    background-color: #030421;
     padding:70px 0 104px 0;
 }
 
@@ -452,10 +483,13 @@ color: #E5E5E5;
     margin-top: 325px;
     float: right;
 }
-
+#localizacao{
+    width: 25px;
+    height: 27px;
+}
 .redes-sociais img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin: auto;
 }
 
@@ -470,7 +504,6 @@ footer {
     line-height: 29px;
     text-align: center;
     color: #E5E5E5;
-    border-top: 2px solid #EDD237;
 }
 
 footer h4 {
@@ -481,8 +514,13 @@ footer h4 {
 footer a{
     font-weight: bold;
     text-decoration: none;
+    color:#ffffff;
 }
 footer a:link{
+    color:#ffffff;
+    text-decoration: none;
+}
+footer a:hover{
     color:#ffffff;
     text-decoration: none;
 }

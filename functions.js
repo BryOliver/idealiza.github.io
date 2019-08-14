@@ -102,7 +102,7 @@ $(document).ready(function () {
         nextArrow: $('#port-next'),
     });
     $('.servicos').slick({
-        slidesToShow: 5,
+        slidesToShow: slides_to_show,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -113,9 +113,9 @@ $(document).ready(function () {
 
 
     $('.clientes').slick({
-        slidesToShow: slides_to_show,
+        slidesToShow: 5,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 1800,
         prevArrow: $('#cli-prev'),
         nextArrow: $('#cli-next'),
