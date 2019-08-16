@@ -108,14 +108,17 @@ strong{
     text-align: center;
     cursor: pointer;
 }
+.navbar li{
+    height: 66px !important;
+}
 /*hover do navbar*/
-nav a {
+nav li {
     position: relative;
     color: #fff;
     text-decoration: none;  
   }
   
-nav a:before {
+nav li:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -130,7 +133,7 @@ nav a:before {
     transition: all 0.3s ease-in-out 0s;
   }
   
-nav a:hover:before {
+nav li:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
