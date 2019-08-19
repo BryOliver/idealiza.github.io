@@ -112,13 +112,13 @@ strong{
     height: 66px !important;
 }
 /*hover do navbar*/
-nav li {
+nav ul li span {
     position: relative;
     color: #fff;
     text-decoration: none;  
   }
   
-nav li:before {
+nav ul li span:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -133,7 +133,7 @@ nav li:before {
     transition: all 0.3s ease-in-out 0s;
   }
   
-nav li:hover:before {
+nav ul li span:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -428,6 +428,8 @@ hr {
 #contato label {
     color: #E5E5E5;
     margin-top: 20px;
+    font-family: Montserrat;
+
 }
 
 #contato input[type="submit"] {
