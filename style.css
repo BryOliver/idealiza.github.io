@@ -138,8 +138,17 @@ strong{
     text-align: center;
     cursor: pointer;
 }
+#icon_insta, #icon_face{
+    height: 25px !important;
+    width: 25px !important;
+}
 .navbar li{
     height: 66px !important;
+}
+nav li span a img{
+    width: 25px;
+    height: 25px;
+
 }
 /*hover do navbar*/
 nav ul li span {
@@ -193,7 +202,7 @@ hr {
     margin-top: -70px;
     right: 150px;
     position: absolute;
-    left: 250px;
+    left: 120px;
 }
 
 .col-md-1 {
@@ -203,7 +212,7 @@ hr {
 #imageminicio {
     position: absolute;
     width: 350px;
-    left: 300px;
+    left: 200px;
     top: 200px;
     /*background: url(img1.jpg);*/
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
@@ -233,7 +242,7 @@ hr {
     position: relative;
     float: left;
     height: 100vh;
-    width: 400px;
+    width: 270px;
     background-color: orange;
 }
 
@@ -260,7 +269,7 @@ hr {
     position: fixed;
     float: left;
     height: 90px;
-    width: 400px;
+    width: 270px;
     left: 0;
     top: 0;
     background-color: orange;
