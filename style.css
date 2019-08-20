@@ -81,7 +81,7 @@ h1 {
     width: 7%;  
     display: block;
     margin-top: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     border-color: #E5E5E5;
@@ -92,7 +92,7 @@ h1 {
     display: block;
     margin-top: 0;
     margin-bottom: 50px;
-    margin-left: 30px;
+    margin-left: 9%;
     border-color: #212121;
     border-width: 1px;
     text-align:  left;
@@ -102,7 +102,7 @@ h1 {
     display: block;
     margin-top: 0;
     margin-bottom: 50px;
-    margin-left: 22px;
+    margin-left: 7%;
     border-color: #212121;
     border-width: 1px;
     text-align:  left;
@@ -112,7 +112,7 @@ h1 {
     display: block;
     margin-top: 1px;
     margin-bottom: 50px;
-    margin-left: 22px;
+    margin-left: 7%;
     border-color: #212121;
     border-width: 1px;
     text-align:  left;
@@ -877,6 +877,62 @@ button:focus {
     .yellow-border{
         height: 800px !important;
     }
+    /*MEU MEU*/
+    #quemsomos .col-sm-4{
+        padding-left: 10%;
+        margin-right: 0px !important;
+        text-align: center !important;
+    }
+    .row.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+  
+    #quemsomos h2{
+        text-align: center !important;
+    }
+    #quemsomos p{
+        text-align: justify;
+    }
+    #quemsomos ul{
+        padding-left: 15px;
+    }
+    #plus_icon{
+        width: 30px !important;
+        height: 30px;
+        margin-right: 10px !important;
+    }
+    #contatenos{
+        margin-right: 20px;
+    }
+    #quem_subli{
+        width: 35%;  
+    }
+    #port_subli{
+        width: 20%;  
+    }
+    #cont_subli{
+        width: 20%;  
+    }
+    #cliente_subli{
+        width: 18%;  
+    }
+    #serv_subli{
+        width: 20%;  
+    }
+    #missao_subli{
+        width: 15%;
+        margin-left:43%;  
+    }
+    #visao_subli{
+        width: 10%;
+        margin-left: 45%;  
+    }
+    #valor_subli{
+        width: 14%; 
+        margin-left: 43%;
+    } 
+    /*FIM FIM*/
 }
 
 @media screen and (min-width: 837px) and (max-width: 1126px){
@@ -918,9 +974,60 @@ button:focus {
 }
 
 @media screen and (max-width: 570px) {
+    /*MEU MEU*/
+    .row.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+  
+    #quemsomos h2{
+        text-align: center !important;
+    }
+    #quemsomos p{
+        text-align: justify;
+    }
+    #quemsomos ul{
+        padding-left: 15px;
+    }
+    #plus_icon{
+        width: 30px !important;
+        height: 30px;
+        margin-right: 10px !important;
+    }
+    #contatenos{
+        margin-right: 20px;
+    }
+    #quem_subli{
+        width: 35%;  
+    }
+    #port_subli{
+        width: 20%;  
+    }
+    #cont_subli{
+        width: 20%;  
+    }
+    #cliente_subli{
+        width: 18%;  
+    }
+    #serv_subli{
+        width: 20%;  
+    }
+    #missao_subli{
+        width: 15%;
+        margin-left:43%;  
+    }
+    #visao_subli{
+        width: 10%;
+        margin-left: 45%;  
+    }
+    #valor_subli{
+        width: 14%; 
+        margin-left: 43%;
+    } 
+    /*FIM FIM*/
     #mapa {
         position: unset !important;
-        max-width: 50% !important;
+        max-width: 90% !important;
     }
     #secaoinicial .yellow-border {
         width: 95px;
@@ -1023,6 +1130,7 @@ button:focus {
 
     .redes-sociais {
         margin-top: 25px;
+        text-align: center;
     }
 
     .slick-next {
@@ -1099,8 +1207,67 @@ button:focus {
         height: 600px;
     }
 }
+@media screen and (min-width: 376px) and (max-width: 425px){
+    #mapa {
+        position: unset !important;
+        max-width: 90% !important;
+    }
+   .row.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+  
+    #quemsomos h2{
+        text-align: center !important;
+    }
+    #quemsomos p{
+        text-align: justify;
+    }
+    #quemsomos ul{
+        padding-left: 15px;
+    }
+    #plus_icon{
+        width: 30px !important;
+        height: 30px;
+        margin-right: 10px !important;
+    }
+    #contatenos{
+        margin-right: 20px;
+    }
+    #quem_subli{
+        width: 40%;  
+    }
+    #port_subli{
+        width: 30%;  
+    }
+    #cont_subli{
+        width: 30%;  
+    }
+    #cliente_subli{
+        width: 28%;  
+    }
+    #serv_subli{
+        width: 30%;  
+    }
+    #missao_subli{
+        width: 20%;
+        margin-left:40%;  
+    }
+    #visao_subli{
+        width: 15%;
+        margin-left: 43%;  
+    }
+    #valor_subli{
+        width: 19%; 
+        margin-left: 40%;
+    } 
+    .redes-sociais {
+        margin-top: 25px;
+        text-align: center;
+    }
+}
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 375px) {
     .row.reverse {
     display: flex;
     flex-direction: column-reverse;
@@ -1140,15 +1307,15 @@ button:focus {
     }
     #missao_subli{
         width: 28%;
-        margin-left: 90px;  
+        margin-left: 35%;  
     }
     #visao_subli{
         width: 25%;
-        margin-left: 100px;  
+        margin-left: 38%;  
     }
     #valor_subli{
         width: 35%; 
-        margin-left: 85px;
+        margin-left: 32%;
     }
     #secaoinicial .yellow-border {
         width: 95px;
@@ -1255,6 +1422,7 @@ button:focus {
 
     .redes-sociais {
         margin-top: 25px;
+        text-align: center;
     }
     
     .slick-next {
@@ -1307,6 +1475,6 @@ button:focus {
 
     #mapa {
         position: unset !important;
-        max-width: 50% !important;
+        max-width: 90% !important;
     }
 }
