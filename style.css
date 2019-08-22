@@ -887,10 +887,14 @@ button:focus {
         height: 800px !important;
     }
     /*MEU MEU*/
-    #quemsomos .col-sm-4{
+     #quemsomos .col-sm-4{
         padding-left: 10%;
+        padding-bottom: 20px;
         margin-right: 0px !important;
         text-align: center !important;
+    }
+    #quemsomos .col-sm-4{
+        left: 60px;
     }
     .row.reverse {
     display: flex;
@@ -915,36 +919,112 @@ button:focus {
         margin-right: 20px;
     }
     #quem_subli{
-        width: 35%;  
+        width: 25%;  
     }
     #port_subli{
-        width: 20%;  
+        width: 15%;  
     }
     #cont_subli{
-        width: 20%;  
+        width: 13%;  
     }
     #cliente_subli{
-        width: 18%;  
+        width: 11%;  
     }
     #serv_subli{
-        width: 20%;  
+        width: 11%;  
     }
     #missao_subli{
-        width: 15%;
-        margin-left:43%;  
+        width: 11%;
+        margin-left:44%;  
     }
     #visao_subli{
-        width: 10%;
-        margin-left: 45%;  
+        width: 8%;
+        margin-left: 46%;  
     }
     #valor_subli{
-        width: 14%; 
-        margin-left: 43%;
+        width: 11%; 
+        margin-left: 45%;
     } 
+    #mapa{
+        left: 100px !important;
+    }
     /*FIM FIM*/
 }
 
 @media screen and (min-width: 837px) and (max-width: 1126px){
+    /*MEU MEU*/
+    #imageminicio {
+        left: 55px !important;
+        top: 160px;
+    }
+    .yellow-border{
+        height: 700px !important;
+    }
+    #secaoinicial{
+        height: 700px !important;
+    }
+    #quemsomos .col-sm-4{
+        padding-left: 10%;
+        margin-right: 0px !important;
+        text-align: center !important;
+        padding-bottom: 20px;
+    }
+    #quemsomos .col-sm-4{
+        left: 170px;
+    }
+    .row.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+  
+    #quemsomos h2{
+        text-align: center !important;
+    }
+    #quemsomos p{
+        text-align: justify;
+    }
+    #quemsomos ul{
+        padding-left: 15px;
+    }
+    #plus_icon{
+        width: 30px !important;
+        height: 30px;
+        margin-right: 10px !important;
+    }
+    #contatenos{
+        margin-right: 20px;
+    }
+    #quem_subli{
+        width: 15%;  
+    }
+    #port_subli{
+        width: 10%;  
+    }
+    #cont_subli{
+        width: 10%;  
+    }
+    #cliente_subli{
+        width: 8%;  
+    }
+    #serv_subli{
+        width: 10%;  
+    }
+    #missao_subli{
+        width: 5%;
+        margin-left:47%;  
+    }
+    #visao_subli{
+        width: 5%;
+        margin-left: 47%;  
+    }
+    #valor_subli{
+        width: 7%; 
+        margin-left: 47%;
+    } 
+    #mapa{
+        left: 200px !important;
+    }
+    /*FIM FIM*/
     #textinicio {
         left: 485px;
     }
