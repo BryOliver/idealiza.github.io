@@ -145,10 +145,13 @@ strong{
 .navbar li{
     height: 66px !important;
 }
-nav li span a img{
+nav ul a img{
+    margin-top: 50%;
     width: 25px;
     height: 25px;
-
+}
+nav ul a img:hover{
+    
 }
 /*hover do navbar*/
 nav ul li span {
@@ -182,6 +185,9 @@ nav ul li span:hover:before {
 hr {
     border: 1px solid #212121;
     margin: 100px 0;
+}
+.icon_social:hover{
+    filter: contrast(55%) !important;
 }
 
 .navbar {
