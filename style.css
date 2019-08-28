@@ -15,7 +15,9 @@ h1 {
     text-align: center;
     /*margin-bottom: 50px;*/
 }
-
+#texto .row{
+    margin-left: 10%;
+}
 #quemsomos h1{
     font-family: Domine;
     font-style: normal;
@@ -128,12 +130,22 @@ strong{
     font-weight: bold;
 }
 
-.navbar, .navbar ul, .navbar li, .navbar a, #menu-ops ul, #menu-ops li, #menu-ops a{
+.navbar, .navbar ul, .navbar li, .navbar a{
     padding: .5rem 1rem;
     display: flex;
     color: white !important;
     text-decoration: none !important;
     height: 90px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#menu-ops ul, #menu-ops li, #menu-ops a{
+    padding: .5rem 1rem;
+    display: flex;
+    color: white !important;
+    text-decoration: none !important;
+
     font-size: 20px;
     text-align: center;
     cursor: pointer;
@@ -318,10 +330,7 @@ hr {
     margin-right: 60px;
 }
 
-#quemsomos img {
-    border-radius: 20px;
-   
-}
+
 #plus_icon{
     height:30px; 
     width:30px;
@@ -432,8 +441,8 @@ hr {
 .clientes img{
     filter: contrast(30%);
     transition: 0.6s;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    /*height: 150px;*/
 
 }
 .clientes img:hover{
@@ -504,6 +513,7 @@ hr {
     font-size: 15px;
     line-height: ;
     /* or 208% */
+    padding-top: 2px;
 
 
 color: #E5E5E5;
@@ -536,6 +546,7 @@ color: #E5E5E5;
 #localizacao{
     width: 25px;
     height: 27px;
+    margin-top: 8px;
 }
 .redes-sociais img {
     width: 25px;
@@ -646,6 +657,9 @@ footer img{
     background-color: #E5E5E5;
     padding: 70px 0 104px 0; 
 }
+#portfolio img{
+    width: 200px;
+}
 #portfolio h1 {
     font-family: Domine;
     font-style: normal;
@@ -731,6 +745,72 @@ button:focus {
 }
 
 @media screen and (min-width: 1050px) and (max-width: 1280px){
+    /*MEU MEU*/
+     #quemsomos .col-sm-4{
+        padding-left: 30%;
+        padding-bottom: 20px;
+        margin-right: 0px !important;
+        text-align: center !important;
+    }
+    #quemsomos .col-sm-4{
+        /*left: 60px;*/
+    }
+    .row.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+  
+    #quemsomos h2{
+        text-align: center !important;
+    }
+    #quemsomos p{
+        text-align: justify;
+    }
+    #quemsomos ul{
+        padding-left: 15px;
+    }
+    #plus_icon{
+        width: 30px !important;
+        height: 30px;
+        margin-right: 10px !important;
+    }
+    #contatenos{
+        margin-right: 20px;
+    }
+    #quem_subli{
+        width: 25%;  
+    }
+    #port_subli{
+        width: 15%;  
+    }
+    #cont_subli{
+        width: 13%;  
+    }
+    #cliente_subli{
+        width: 11%;  
+    }
+    #serv_subli{
+        width: 11%;  
+    }
+    #missao_subli{
+        width: 11%;
+        margin-left:44%;  
+    }
+    #visao_subli{
+        width: 8%;
+        margin-left: 46%;  
+    }
+    #valor_subli{
+        width: 11%; 
+        margin-left: 45%;
+    } 
+    #mapa{
+        left: 100px !important;
+    }
+    /*FIM FIM*/
+    #texto .row{
+    margin-left: auto;
+    }
     #logo {
         width: 153px;
         height: unset !important; 
@@ -754,11 +834,15 @@ button:focus {
     }
 
     #mapa {
-        left: 0;
+        left: 30px !important;
+
     }
 }
 
 @media screen and (min-width: 571px) and (max-width: 1049px){
+    #texto .row{
+    margin-left: auto;
+    }
     #quemsomos p {
         max-width: unset !important;
     }
@@ -800,7 +884,7 @@ button:focus {
     }
 
     .p-4{
-        background-color: #424242;
+        background-color: #030421;
     }
 
     #menu-ops ul {
@@ -872,6 +956,9 @@ button:focus {
 }
 
 @media screen and (min-width: 571px) and (max-width: 837px){
+    #texto .row{
+    margin-left: auto;
+    }
     #textinicio {
         left: 197px;
         top: 495px;
@@ -952,7 +1039,7 @@ button:focus {
         margin-left: 45%;
     } 
     #mapa{
-        left: 100px !important;
+        left: 10px !important;
     }
     /*FIM FIM*/
 }
@@ -1168,7 +1255,7 @@ button:focus {
     }
 
     .p-4{
-        background-color: #424242;
+        background-color: #030421;
     }
 
     #menu-ops ul {
@@ -1303,6 +1390,9 @@ button:focus {
     }
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
+    #texto .row{
+    margin-left: auto;
+    }
     #mapa {
         position: unset !important;
         max-width: 90% !important;
@@ -1360,9 +1450,15 @@ button:focus {
         margin-top: 25px;
         text-align: center;
     }
+    #textinicio{
+        padding: 20px 0 0 0;
+    }
 }
 
 @media screen and (max-width: 375px) {
+    #texto .row{
+    margin-left: auto;
+    }
     .row.reverse {
     display: flex;
     flex-direction: column-reverse;
@@ -1422,6 +1518,7 @@ button:focus {
         left: 105px;
         top: 320px;
         font-size: 12pt;
+        padding-top: 20px;
     }
 
     #imageminicio {
@@ -1456,7 +1553,7 @@ button:focus {
     }
 
     .p-4{
-        background-color: #424242;
+        background-color: #030421;
     }
 
     #menu-ops ul {
@@ -1529,7 +1626,7 @@ button:focus {
     }
 
     .slick-slide img {
-        height: 160px;
+        height: 150px;
     }
 
     .modal-content {
