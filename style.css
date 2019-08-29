@@ -18,6 +18,13 @@ h1 {
 #texto .row{
     margin-left: 10%;
 }
+.missao{
+    right: 130px;
+}
+.valor{
+    left: 150px;
+}
+
 #quemsomos h1{
     font-family: Domine;
     font-style: normal;
@@ -847,6 +854,12 @@ button:focus {
     #texto .row{
     margin-left: auto;
     }
+    .missao{
+    right: 0;
+    }
+    .valor{
+        left: 0;
+    }
     #quemsomos p {
         max-width: unset !important;
     }
@@ -962,6 +975,12 @@ button:focus {
 @media screen and (min-width: 571px) and (max-width: 837px){
     #texto .row{
     margin-left: auto;
+    }
+    .missao{
+    right: 0;
+    }
+    .valor{
+        left: 0;
     }
     #textinicio {
         left: 197px;
@@ -1161,6 +1180,15 @@ button:focus {
 
 @media screen and (max-width: 570px) {
     /*MEU MEU*/
+    #texto .row{
+    margin-left: auto;
+    }
+    .missao{
+    right: 0;
+    }
+    .valor{
+        left: 0;
+    }
     .row.reverse {
     display: flex;
     flex-direction: column-reverse;
@@ -1397,6 +1425,12 @@ button:focus {
     #texto .row{
     margin-left: auto;
     }
+    .missao{
+    right: 0;
+    }
+    .valor{
+        left: 0;
+    }
     #mapa {
         position: unset !important;
         max-width: 90% !important;
@@ -1462,6 +1496,12 @@ button:focus {
 @media screen and (max-width: 375px) {
     #texto .row{
     margin-left: auto;
+    }
+    .missao{
+    right: 0;
+    }
+    .valor{
+        left: 0;
     }
     .row.reverse {
     display: flex;
