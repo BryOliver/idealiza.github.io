@@ -341,6 +341,7 @@ hr {
     margin: 20px 0 0 0;
 }
 #See-more{
+    border: none;
     text-align: left;
     /*margin: 50px 0 50px 0;*/
     background: none;
