@@ -441,7 +441,7 @@ hr {
 .clientes img{
     filter: contrast(30%);
     transition: 0.6s;
-    width: 200px;
+    width: 300px;
     /*height: 150px;*/
 
 }
@@ -658,7 +658,7 @@ footer img{
     padding: 70px 0 104px 0; 
 }
 #portfolio img{
-    width: 200px;
+    width: 300px;
 }
 #portfolio h1 {
     font-family: Domine;
