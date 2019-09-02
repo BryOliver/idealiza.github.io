@@ -1446,8 +1446,13 @@ button:focus {
     }
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
+    #texto, #texto .col-sm{
+        padding: 0;
+    }
     #texto p{
      text-align: center !important;
+     margin: 0;
+     padding-right: 10px;
     }
     #texto .row{
     margin-left: auto;
