@@ -1519,10 +1519,15 @@ button:focus {
     #textinicio{
         padding: 20px 0 0 0;
     }
+    #quemsomos li{
+    text-align: center;
+    }
 }
 
 @media screen and (max-width: 375px) {
-    
+    #quemsomos li{
+    text-align: center;
+    }
     #texto p{
      text-align: center !important;
     }
@@ -1544,7 +1549,7 @@ button:focus {
         text-align: center !important;
     }
     #quemsomos p{
-        text-align: center !important;
+        text-align: center;
     }
     #quemsomos ul{
         padding-left: 15px;
