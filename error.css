@@ -71,7 +71,31 @@
 @media screen and (max-width: 570px){}
 @media screen and (min-width: 400px){}
 @media screen and (max-height: 600px){}
-@media screen and (min-width: 376px) and (max-width: 425px){}
+@media screen and (min-width: 376px) and (max-width: 425px){
+    h1{
+    font-size: 100px;
+    margin: 100px 0 0 0;
+    line-height: 100px;
+    }
+    h2{
+        font-size: 20px;
+        margin: 0;
+    }
+    a{
+        font-size: 15px;
+        margin: 0;
+    }
+    .icons{
+        padding-top: 10px;
+    }
+    #pagina{
+        min-height: 520px;
+    }
+    
+    #insta{
+        padding-left: 70%;
+    }
+}
 @media screen and (max-width: 375px){
     h1{
         font-size: 100px;
@@ -94,6 +118,11 @@
     }
     
     #insta{
-        padding-left: 70%;
+        padding-left: 65%;
+    }
+}
+@media screen and (max-width: 360px){
+    #pagina{
+        min-height: 570px;
     }
 }

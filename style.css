@@ -1525,11 +1525,16 @@ button:focus {
 }
 
 @media screen and (max-width: 375px) {
+    #texto, #texto .col-sm{
+        padding: 0;
+    }
     #quemsomos li{
     text-align: center;
     }
     #texto p{
      text-align: center !important;
+     margin: 0;
+     padding-right: 10px;
     }
     #texto .row{
     margin-left: auto;
