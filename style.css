@@ -1,7 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-
+#insta_laranja{
+    margin-top: 20px;
+}
+.insta{
+    transition: 0.3s;
+    background-image: url("./imagens/insta.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+.insta:hover{
+    background-image: url("./imagens/insta_laranja.png");
+}
+#face_laranja{
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.face{
+    transition: 0.3s;
+    background-image: url("./imagens/face.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+.face:hover{
+    background-image: url("./imagens/face_laranja.png");
+}
 body {
    background-color: #212121;;
 }
@@ -19,10 +45,10 @@ h1 {
     margin-left: 10%;
 }
 .missao{
-    right: 130px;
+    right: 100px;
 }
 .valor{
-    left: 150px;
+    left: 120px;
 }
 
 #quemsomos h1{
@@ -168,9 +194,6 @@ nav ul a img{
     margin-top: 50%;
     width: 25px;
     height: 25px;
-}
-nav ul a img:hover{
-    
 }
 /*hover do navbar*/
 nav ul li span {
@@ -450,7 +473,7 @@ hr {
     filter: contrast(30%);
     transition: 0.6s;
     width: 200px;
-    /*height: 150px;*/
+    height: 150px;
 
 }
 .clientes div{

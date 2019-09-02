@@ -96,7 +96,6 @@ $(document).ready(function () {
     $('.trabalhos').slick({
         slidesToShow: slides_to_show,
         slidesToScroll: 1,
-        autoplay: true,
         autoplaySpeed: 2000,
         prevArrow: $('#port-prev'),
         nextArrow: $('#port-next'),
@@ -135,7 +134,6 @@ $(document).ready(function () {
     $('.servicos').slick({
         slidesToShow: slides_to_show,
         slidesToScroll: 1,
-        autoplay: true,
         autoplaySpeed: 2000,
         arrows: true,
         prevArrow: $('#serv-prev'),
@@ -177,7 +175,7 @@ $(document).ready(function () {
     $('.clientes').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 1800,
         prevArrow: $('#cli-prev'),
         nextArrow: $('#cli-next'),
@@ -221,4 +219,5 @@ $(document).ready(function () {
             $('#texto').slideToggle();
           });
        }
+      
 });
