@@ -692,7 +692,7 @@ footer img{
     padding: 70px 0 104px 0; 
 }
 #portfolio img{
-    max-width: 250px;
+    max-width: 225px;
     max-height: 150px;
 }
 #portfolio h1 {
@@ -1447,7 +1447,7 @@ button:focus {
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
     #texto p{
-     text-align: left !important;
+     text-align: center !important;
     }
     #texto .row{
     margin-left: auto;
@@ -1524,7 +1524,7 @@ button:focus {
 @media screen and (max-width: 375px) {
     
     #texto p{
-     text-align: left !important;
+     text-align: center !important;
     }
     #texto .row{
     margin-left: auto;
