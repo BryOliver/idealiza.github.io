@@ -1447,7 +1447,7 @@ button:focus {
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
     #texto p{
-     text-align: center !important;
+     text-align: left !important;
     }
     #texto .row{
     margin-left: auto;
@@ -1524,7 +1524,7 @@ button:focus {
 @media screen and (max-width: 375px) {
     
     #texto p{
-     text-align: center !important;
+     text-align: left !important;
     }
     #texto .row{
     margin-left: auto;
