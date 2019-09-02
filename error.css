@@ -1,196 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-@media screen and (min-width: 320px){
-    body{
-        background: #030421;
-        /*text-align: center;*/
-    }
-    section{
-        min-height: 8100px;
-    }
-    .icons{
-        padding-top: 50px;
-    }
-    #social{
-        text-align: right;
-    }
-    #face{
-        padding-left:10px;
-    }
-    #conteudo, footer{
-        text-align: center;
-    }
-    h1{
-        font-family: Montserrat;
-        font-style: normal; 
-        font-weight: bold;
-        font-size: 280px;
-        line-height: 183px;  
-        color: #fefefe;
-        margin: 100px 0 20px 0;
-    }
-    h2{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 59px;
-        color: #fefefe;
-        margin: 20px 0 40px 0;
-    }
-    a{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-        color: #EDD237;
-        margin-bottom: 100%;
-        text-decoration: none;
-    }
-    footer{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        padding-top: 10px;
-        border-top: 1px solid #EDD237;
-        color: #E5E5E5
-    }
-@media screen and (min-width: 425px){
     body{
     background: #030421;
     /*text-align: center;*/
     }
-    section{
+
+    #pagina{
         min-height: 600px;
     }
     .icons{
         padding-top: 50px;
     }
-    #social{
-        text-align: right;
-    }
     #face{
         padding-left:10px;
     }
-    #conteudo, footer{
-        text-align: center;
-    }
-    h1{
-        font-family: Montserrat;
-        font-style: normal; 
-        font-weight: bold;
-        font-size: 150px;
-        line-height: 183px;  
-        color: #fefefe;
-        margin: 100px 0 20px 0;
-    }
-    h2{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 59px;
-        color: #fefefe;
-        margin: 20px 0 40px 0;
-    }
-    a{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-        color: #EDD237;
-        margin-bottom: 100%;
-        text-decoration: none;
-    }
-    footer{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        padding-top: 10px;
-        border-top: 1px solid #EDD237;
-        color: #E5E5E5
-    }
-@media screen and (min-width: 768px){
-    body{
-    background: #030421;
-    /*text-align: center;*/
-    }
-    section{
-        min-height: 600px;
-    }
-    .icons{
-        padding-top: 50px;
-    }
-    #social{
-        text-align: right;
-    }
-    #face{
-        padding-left:10px;
-    }
-    #conteudo, footer{
-        text-align: center;
-    }
-    h1{
-        font-family: Montserrat;
-        font-style: normal; 
-        font-weight: bold;
-        font-size: 150px;
-        line-height: 183px;  
-        color: #fefefe;
-        margin: 100px 0 20px 0;
-    }
-    h2{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 59px;
-        color: #fefefe;
-        margin: 20px 0 40px 0;
-    }
-    a{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-        color: #EDD237;
-        margin-bottom: 100%;
-        text-decoration: none;
-    }
-    footer{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-        padding-top: 10px;
-        border-top: 1px solid #EDD237;
-        color: #E5E5E5
-    }
-@media screen and (min-width: 1024px){
-    body{
-    background: #030421;
-    /*text-align: center;*/
-    }
-    section{
-        min-height: 600px;
-    }
-    .icons{
-        padding-top: 50px;
-    }
-    #social{
-        text-align: right;
-    }
-    #face{
-        padding-left:10px;
+    #insta{
+        padding-left: 92%;
     }
     #conteudo, footer{
         text-align: center;
@@ -234,62 +60,40 @@
         color: #E5E5E5
 
     }
-@media screen and (min-width: 1920px){
-    body{
-    background: #030421;
-    /*text-align: center;*/
-    }
-    section{
-        min-height: 600px;
-    }
-    .icons{
-        padding-top: 50px;
-    }
-    #social{
-        text-align: right;
-    }
-    #face{
-        padding-left:10px;
-    }
-    #conteudo, footer{
-        text-align: center;
-    }
+
+@media screen and (min-width: 1050px) and (max-width: 1280px){}
+@media screen and (min-width: 571px) and (max-width: 1049px){}
+@media screen and (min-width: 571px) and (max-width: 1035px){}
+@media screen and (min-width: 571px) and (max-width: 1126px){}
+@media screen and (min-width: 571px) and (max-width: 837px){}
+@media screen and (min-width: 837px) and (max-width: 1126px){}
+@media screen and (min-width: 1920px){}
+@media screen and (max-width: 570px){}
+@media screen and (min-width: 400px){}
+@media screen and (max-height: 600px){}
+@media screen and (min-width: 376px) and (max-width: 425px){}
+@media screen and (max-width: 375px){
     h1{
-        font-family: Montserrat;
-        font-style: normal; 
-        font-weight: bold;
-        font-size: 150px;
-        line-height: 183px;  
-        color: #fefefe;
-        margin: 100px 0 20px 0;
+        font-size: 100px;
+        margin: 100px 0 0 0;
+        line-height: 100px;
     }
     h2{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 59px;
-        color: #fefefe;
-        margin: 20px 0 40px 0;
+        font-size: 20px;
+        margin: 0;
     }
     a{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-        color: #EDD237;
-        margin-bottom: 100%;
-        text-decoration: none;
+        font-size: 15px;
+        margin: 0;
     }
-    footer{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
+    .icons{
         padding-top: 10px;
-        border-top: 1px solid #EDD237;
-        color: #E5E5E5
+    }
+    #pagina{
+        min-height: 500px;
+    }
+    
+    #insta{
+        padding-left: 70%;
     }
 }

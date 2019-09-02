@@ -45,10 +45,10 @@ h1 {
     margin-left: 10%;
 }
 .missao{
-    right: 100px;
+    right: 50px;
 }
 .valor{
-    left: 120px;
+    left: 50px;
 }
 
 #quemsomos h1{
@@ -1445,6 +1445,9 @@ button:focus {
     }
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
+    #texto p{
+     text-align: center !important;
+    }
     #texto .row{
     margin-left: auto;
     }
@@ -1468,6 +1471,7 @@ button:focus {
     }
     #quemsomos p{
         text-align: justify;
+
     }
     #quemsomos ul{
         padding-left: 15px;
@@ -1517,6 +1521,10 @@ button:focus {
 }
 
 @media screen and (max-width: 375px) {
+    
+    #texto p{
+     text-align: center !important;
+    }
     #texto .row{
     margin-left: auto;
     }
