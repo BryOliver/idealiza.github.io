@@ -1471,7 +1471,7 @@ button:focus {
         text-align: center !important;
     }
     #quemsomos p{
-        text-align: justify;
+        text-align: center;
 
     }
     #quemsomos ul{
@@ -1544,7 +1544,7 @@ button:focus {
         text-align: center !important;
     }
     #quemsomos p{
-        text-align: justify;
+        text-align: center !important;
     }
     #quemsomos ul{
         padding-left: 15px;
