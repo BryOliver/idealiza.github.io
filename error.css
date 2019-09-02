@@ -62,15 +62,39 @@
     }
 
 @media screen and (min-width: 1050px) and (max-width: 1280px){}
-@media screen and (min-width: 571px) and (max-width: 1049px){}
+@media screen and (min-width: 571px) and (max-width: 1049px){
+    h1{
+        margin-top: 350px;
+    }
+    #insta{
+        padding-left: 90%;
+    }
+    #pagina{
+        min-height: 1200px;
+    }
+}
 @media screen and (min-width: 571px) and (max-width: 1035px){}
 @media screen and (min-width: 571px) and (max-width: 1126px){}
-@media screen and (min-width: 571px) and (max-width: 837px){}
+@media screen and (min-width: 571px) and (max-width: 837px){
+    h1{
+        margin-top: 250px;
+    }
+    #insta{
+        padding-left: 85%;
+    }
+    #pagina{
+        min-height: 950px;
+    }
+}
 @media screen and (min-width: 837px) and (max-width: 1126px){}
 @media screen and (min-width: 1920px){}
 @media screen and (max-width: 570px){}
 @media screen and (min-width: 400px){}
-@media screen and (max-height: 600px){}
+/*@media screen and (max-height: 670px){
+    #pagina{
+        min-height: 700px;
+    }
+}*/
 @media screen and (min-width: 376px) and (max-width: 425px){
     h1{
     font-size: 100px;
@@ -99,7 +123,7 @@
 @media screen and (max-width: 375px){
     h1{
         font-size: 100px;
-        margin: 100px 0 0 0;
+        margin: 110px 0 0 0;
         line-height: 100px;
     }
     h2{
