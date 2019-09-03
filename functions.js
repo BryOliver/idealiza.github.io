@@ -182,9 +182,9 @@ $(document).ready(function () {
         nextArrow: $('#cli-next'),
         responsive: [
             {
-              breakpoint: 1024,
+              breakpoint: 1030,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 4,
                 slidesToScroll: 1,
                 infinite: true,
               }
