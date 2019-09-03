@@ -133,7 +133,7 @@ $(document).ready(function () {
     });
     $('.servicos').slick({
         slidesToShow: slides_to_show,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplaySpeed: 6000,
         autoplay: true,
         arrows: true,

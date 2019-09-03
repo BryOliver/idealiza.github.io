@@ -195,10 +195,16 @@ nav ul a img{
     width: 25px;
     height: 25px;
 }
+nav ul li span a{
+    transition: 0.3s;
+}
+nav ul li span a:hover{
+    color: #FFA103 !important;
+}
 /*hover do navbar*/
 nav ul li span {
     position: relative;
-    color: #fff;
+    color:#FFA103;
     text-decoration: none;  
   }
   
@@ -209,7 +215,8 @@ nav ul li span:before {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #FFA103;
+
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -218,6 +225,7 @@ nav ul li span:before {
   }
   
 nav ul li span:hover:before {
+    
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
