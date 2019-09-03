@@ -59,37 +59,37 @@ $(document).ready(function () {
 
     $(".link-quemsomos").click(function () {
         $('html, body').animate({
-            scrollTop: $("#quemsomos").offset().top - 50
+            scrollTop: $("#quemsomos").offset().top - 45
         }, 500);
     });
 
     $(".link-servicos").click(function () {
         $('html, body').animate({
-            scrollTop: $("#servicos").offset().top - 50
+            scrollTop: $("#servicos").offset().top - 45
         }, 500);
     });
 
     $(".link-portfolio").click(function () {
         $('html, body').animate({
-            scrollTop: $("#portfolio").offset().top - 50
+            scrollTop: $("#portfolio").offset().top - 45
         }, 500);
     });
 
     $(".link-clientes").click(function () {
         $('html, body').animate({
-            scrollTop: $("#clientes").offset().top - 50
+            scrollTop: $("#clientes").offset().top - 45
         }, 500);
     });
 
     $(".link-contato").click(function () {
         $('html, body').animate({
-            scrollTop: $("#contato").offset().top - 50
+            scrollTop: $("#contato").offset().top - 45
         }, 500);
     });
 
     $("#contatenos").click(function () {
         $('html, body').animate({
-            scrollTop: $("#servicos").offset().top - 50
+            scrollTop: $("#servicos").offset().top - 45
         }, 500);
     });
 
