@@ -781,6 +781,9 @@ button:focus {
 
 @media screen and (min-width: 1050px) and (max-width: 1280px){
     /*MEU MEU*/
+    #quemsomos li{
+    text-align: center;
+    }
      #quemsomos .col-sm-4{
         padding-left: 30%;
         padding-bottom: 20px;
@@ -997,6 +1000,9 @@ button:focus {
 }
 
 @media screen and (min-width: 571px) and (max-width: 837px){
+    #quemsomos li{
+    text-align: center;
+    }
     #texto .row{
     margin-left: auto;
     }
@@ -1093,6 +1099,9 @@ button:focus {
 
 @media screen and (min-width: 837px) and (max-width: 1126px){
     /*MEU MEU*/
+    #quemsomos li{
+    text-align: center;
+    }
     #imageminicio {
         left: 55px !important;
         top: 160px;
@@ -1480,7 +1489,7 @@ button:focus {
 
     }
     #quemsomos ul{
-        padding-left: 15px;
+        padding-left: 0 !important;
     }
     #plus_icon{
         width: 30px !important;
@@ -1530,6 +1539,9 @@ button:focus {
 }
 
 @media screen and (max-width: 375px) {
+    #quemsomos .container{
+        padding-left: 10px;
+    }
     #texto, #texto .col-sm{
         padding: 0;
     }
@@ -1554,15 +1566,14 @@ button:focus {
     display: flex;
     flex-direction: column-reverse;
     }
-  
+    #quemsomos ul{
+        padding-left: 0 !important;
+    }
     #quemsomos h2{
         text-align: center !important;
     }
     #quemsomos p{
         text-align: center;
-    }
-    #quemsomos ul{
-        padding-left: 15px;
     }
     #plus_icon{
         width: 30px !important;

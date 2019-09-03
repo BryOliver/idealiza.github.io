@@ -134,7 +134,8 @@ $(document).ready(function () {
     $('.servicos').slick({
         slidesToShow: slides_to_show,
         slidesToScroll: 1,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 10000,
+        autoplay: true,
         arrows: true,
         prevArrow: $('#serv-prev'),
         nextArrow: $('#serv-next'),
@@ -175,7 +176,7 @@ $(document).ready(function () {
     $('.clientes').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 1800,
         prevArrow: $('#cli-prev'),
         nextArrow: $('#cli-next'),
