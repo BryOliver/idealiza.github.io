@@ -134,7 +134,8 @@ $(document).ready(function () {
     $('.servicos').slick({
         slidesToShow: slides_to_show,
         slidesToScroll: 3,
-        autoplaySpeed: 6000,
+        autoplaySpeed: 8000,
+        pauseOnhover: true,
         autoplay: true,
         arrows: true,
         prevArrow: $('#serv-prev'),
